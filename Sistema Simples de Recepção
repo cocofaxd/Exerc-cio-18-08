@@ -1,0 +1,17 @@
+Sistema Simples de Recepção
+
+#include <stdio.h>
+
+int main() { int numVisitantes;
+
+// Solicita ao recepcionista o número de visitantes
+printf("Digite o número de visitantes que entraram na empresa hoje: ");
+scanf("%d", &numVisitantes);
+
+// Exibe uma mensagem de confirmação
+printf("Número de visitantes registrado: %d\n", numVisitantes);
+printf("Obrigado por registrar o número de visitantes.\n");
+
+return 0;
+}
+
